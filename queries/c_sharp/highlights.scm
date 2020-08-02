@@ -90,7 +90,6 @@
  "if"
  "else"
  "switch"
- "break"
  "case"
 ] @conditional
 
@@ -100,6 +99,7 @@
  "do"
  "continue"
  "in"
+ "break"
  "goto"
  "foreach"
 ] @repeat
@@ -110,6 +110,17 @@
  "throw"
  "finally"
 ] @exception
+
+[
+ "["
+ "]"
+ "{"
+ "}"
+ "("
+ ")"
+ "<"
+ ">"
+] @punctuation.bracket
 
 [
  "+"
@@ -156,17 +167,6 @@
  ","
  ":"
 ] @punctuation.delimiter
-
-[
- "["
- "]"
- "{"
- "}"
- "("
- ")"
- "<"
- ">"
-] @punctuation.bracket
 
 [
  (this_expression)

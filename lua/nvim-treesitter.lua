@@ -1,7 +1,7 @@
-if not pcall(require,"vim.treesitter.languagetree")
-  and vim.fn.getenv('CI') == vim.NIL then -- TODO(vigoux): remove once new nightlies are built
-  error("nvim-treesitter requires a more recent Neovim nightly version!")
-end
+-- if not pcall(require,"vim.treesitter.languagetree")
+--   and vim.fn.getenv('CI') == vim.NIL then -- TODO(vigoux): remove once new nightlies are built
+--   error("nvim-treesitter requires a more recent Neovim nightly version!")
+-- end
 
 local install = require'nvim-treesitter.install'
 local utils = require'nvim-treesitter.utils'
